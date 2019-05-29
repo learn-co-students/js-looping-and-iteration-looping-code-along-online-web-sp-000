@@ -9,11 +9,10 @@ function writeCards(array, event) {
    return newArray;
 }
 
-function countdown(integer) {
-
-  let countdown = integer;
-  while (countdown < integer) {
-    console.log(countdown--);
+function countdown(number) {
+  let i = number;
+  while (i >= 0) {
+    console.log(i--);
   }
 
 }
