@@ -8,3 +8,12 @@ function writeCards(array, event) {
 
    return newArray;
 }
+
+function countdown(integer) {
+
+  let countdown = integer;
+  while (countdown < integer) {
+    console.log(countdown--);
+  }
+
+}
