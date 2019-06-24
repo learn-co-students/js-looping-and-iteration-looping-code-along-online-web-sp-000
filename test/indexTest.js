@@ -4,7 +4,6 @@ describe( 'index.js', () => {
   let spy;
 
   beforeEach( () => {
-    this.enableTimeouts(false)
     spy = sinon.spy( console, 'log' );
   } );
 
