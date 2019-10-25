@@ -12,6 +12,6 @@ function countDown(num){
   let i = num
   while (i > 0  || i ==0) {
     console.log(i)
-    i = i - 1
+    i -=1
   }
 }
