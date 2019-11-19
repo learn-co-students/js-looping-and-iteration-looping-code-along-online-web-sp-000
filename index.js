@@ -2,10 +2,15 @@
 
 function writeCards(name, eventName)
 {
-    for(const i = 0; i < name.lenth; i++)
+    let i = 0;
+
+    while (i < name.length)
     {
-        console.log(`Thank you, ${name[i]}, for the wonderful ${eventName}!`);
+        console.log(`Thank You, ${name[i]}, for the wonderful ${eventName}!`);
+        i++;
     }
+
+    return name;
 }
 
 function countDown(integer)
