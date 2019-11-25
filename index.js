@@ -8,15 +8,35 @@ function wrapGift(gifts) {
   return gifts;
 }
 
-wrapGift(gifts);
+// wrapGift(gifts);
 
 
-let countup = 0;
-while (countup < 10) {
-  console.log(countup++);
+// let countup = 0;
+// while (countup < 10) {
+//   console.log(countup++);
+// }
+
+
+// for (let countup = 10; countup > 0; countup--) {
+//   console.log(countup);
+// }
+
+
+function writeCards(namesArray, occasion) {
+  const j = [];
+  for (let i = 0; i < namesArray.length; i++) {
+    j.push(`Thank you, ${namesArray[i]}, for the wonderful ${occasion} gift!`);
+  }
+  console.log(j)
+  return j
 }
 
-
-for (let countup = 10; countup > 0; countup--) {
-  console.log(countup);
+function countDown(number) {
+  while (number >= 0) {
+    console.log(number);
+    number--;
+  }
 }
+
+writeCards(["Ada", "Brendan", "Ali"], "birthday");
+countDown(11);
