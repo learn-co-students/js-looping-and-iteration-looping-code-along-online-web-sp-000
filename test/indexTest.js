@@ -9,7 +9,7 @@ describe( 'index.js', () => {
 
   afterEach( () => {
     spy.restore();
-  } )
+  } );
 
   describe( 'writeCards()', () => {
 
