@@ -126,6 +126,8 @@ rewrite our gift-wrapping action above as a `for` loop:
 ```js
 const gifts = ["teddy bear", "drone", "doll"];
 
+// an array of "string" gifts
+
 function wrapGifts(gifts) {
   for (let i = 0; i < gifts.length; i++) {
     console.log(`Wrapped ${gifts[i]} and added a bow!`);
