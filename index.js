@@ -1,18 +1,18 @@
 // Code your solutions in this file
-const name = []
+
 
 function writeCards(name, celebration) {
+  let new_array = []
   for (let i = 0; i < name.length; i++) {
-    console.log(`Thank you, ${name[i]}, for the wonderful surprise gift!`);
+    new_array.push(`Thank you, ${name[i]}, for the wonderful surprise gift!`);
   }
-  return name;
+  return new_array;
 }
-
-writeCards(name);
 
 
 function countDown(integer) {
-  while (integer < 0) {
-    console.log(integer++);
+  while (integer >= 0) {
+    console.log(integer);
+    integer--;
   }
 }
