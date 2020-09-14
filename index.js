@@ -17,3 +17,4 @@ function writeCards(names, event) {
        console.log(countDown);
        countDown;
    }
+
