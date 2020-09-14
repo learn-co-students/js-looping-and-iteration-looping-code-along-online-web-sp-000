@@ -12,16 +12,16 @@ function writeCards(names, event) {
         return newArray; 
     }
     
-    let countDown = function f(fromNumber) {
-        console.log(fromNumber);
+    let countDown = function f(10) {
+        console.log(10);
     
-        let nextNumber = fromNumber - 1;
+        let nextNumber = 10 - 1;
     
         if (nextNumber > 0) {
             f(nextNumber);
         }
     }
     
-    let newYearCountDown = countDown;
+    let newCountDown = countDown;
     countDown = null;
-    newYearCountDown(10);
+    newCountDown(10);
