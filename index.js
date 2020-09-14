@@ -12,7 +12,7 @@ function writeCards(names, event) {
         return newArray; 
     }
     
-   var countDown = 10; 
+   let countDown = 10; 
    while (countDown > 0) {
        console.log(countDown);
        countDown;
