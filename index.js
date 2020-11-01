@@ -12,6 +12,6 @@ return message;
 function countDown(n){
     while (n>-1){
         console.log(n);
-        n--;
+        n--
     }
 }
