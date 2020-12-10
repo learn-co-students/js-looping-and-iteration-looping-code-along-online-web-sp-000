@@ -35,7 +35,7 @@ We could then call `wrapGift()` on each gift individually:
 wrapGift(gifts[0]);
 wrapGift(gifts[1]);
 wrapGift(gifts[2]);
-```
+```l
 
 However, this isn't very efficient or extensible. It's a lot of repetitive code
 to write out, and if we had more gifts we'd have to write a whole new line for
