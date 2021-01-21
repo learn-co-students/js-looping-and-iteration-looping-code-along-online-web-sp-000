@@ -1,22 +1,30 @@
 // Code your solutions in this file
 
+
 //function that accepts 2 arguments : array of names and an event name
-//increment after each loop
-//stop loop after last name printed
-//collect printed messages in an array and then return it
+//
+// create an array before you loop
+//
+// and then store the sentences into that new array
+//
+// then return the new array from the function
 
+const names = ['Lisa', 'Kaitlin', 'Jan'];
+const event = 'birthday';
 
-function writeCards(['Lisa', 'Kaitlin', 'Jan'], 'birthday'){
+function writeCards(names, event) {
+let newPhrase = [];
   for (let i = 0; i < names.length; i++) {
-    let array = [];
-    console.log(`Thank you, ${names[i]}, for the wonderful surprise gift!`);
-      //collect thank you cards in array (use .map or foreach)
-    }
-    return array;
+    newPhrase.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+  }
+  return newPhrase;
   }
 
 
-  // let countDown = 11;
+
+
+  // let countDown;
+  // countDown = 11;
   // while (countDown > 1) {
   //   console.log(countDown--);
   // }
